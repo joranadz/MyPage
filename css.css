@@ -1,0 +1,367 @@
+.header {
+    border-bottom: 1px solid #dfd1d2;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    padding-bottom: 0px;
+    padding-top: 9px;
+    padding-left: 15px;
+    position: fixed;
+    z-index: 1;
+}
+
+.meniu {
+    display: flex;
+    justify-content: left;
+}
+
+.meniu button {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #3c3c3c;
+    height: 100%;
+    background-color: white;
+    border: 3px solid #fff;
+}
+
+.meniu button:hover {
+    color: #DCAA2E;
+    border-bottom: 3px solid #DCAA2E;
+}
+
+.mb:hover .pt {
+    display: block;
+    position: relative;
+}
+
+.pt:hover {
+    text-decoration: none;
+    color: #DCAA2E;
+    position: relative;
+}
+
+.pt {
+    height: 50px;
+    width: 120px;
+    font-size: 14px;
+    color: black;
+    padding: 15px;
+    background-color: white;
+    display: none;
+    z-index: 1;
+}
+
+.logo {
+    font-family: Sedgwick Ave Display, serif;
+    font-size: 30px;
+    color: #a68721;
+    text-decoration: none;
+    position: fixed;
+}
+
+.logo:hover {
+    color: #a68721;
+    text-decoration: none;
+    position: fixed;
+}
+
+.lo:hover ptt {
+    display: block;
+    position: fixed;
+}
+
+ptt {
+    background-color: #deb03d;
+    color: white;
+    text-align: center;
+    height: 30px;
+    width: 200px;
+    display: none;
+    z-index: 1;
+    margin-top: 50px;
+    margin-left: -30px;
+    border-top: 4px solid #DCAA2E;
+}
+
+.lo:hover pb {
+    display: block;
+    margin-top: 30px;
+    position: fixed;
+}
+
+pb {
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid #DCAA2E;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    background-color: transparent;
+    margin-left: 70px;
+    margin-top: -11px;
+    display: none;
+    height: 0;
+    width: 0;
+
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+}
+
+.img1 {
+    background-color: black;
+    width: 30px;
+    height: 50px;
+    border-top: 10px solid white;
+    border-bottom: 10px solid white;
+    border-left: 0px;
+    border-right: 0ch;
+    position: fixed;
+}
+.img1:hover {
+    background-color: #DCAA2E;
+    position: fixed;
+}
+
+pi1 {
+    background-color: black;
+    color: white;
+    display: none;
+    position: fixed;
+    text-align: center;
+    height: 30px;
+    width: 100px;
+    z-index: 1;
+    margin-top: 20px;
+    margin-left: -40px;
+    border-top: 4px solid black;
+}
+
+.img1:hover pi1 {
+    display: block;
+    position: fixed;
+
+}
+.img1:hover pb2 {
+    display: block;
+    position: fixed;
+
+}
+pb2{
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid black;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    background-color: transparent;
+    margin-left: 0px;
+    margin-top: 1px;
+    z-index: 1;
+    display: none;
+    height: 0;
+    width: 0;
+}
+.bodyy {
+    width: 100%;
+    height: 100%;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f2de;
+}
+
+p {
+    font-size: 14px;
+    margin: 1px;
+    padding: 1px;
+}
+
+h1 {
+    font-size: 18px;
+    margin: 1px;
+    padding: 1px;
+}
+
+.text {
+    margin-left: 15px;
+    padding: 2px;
+}
+.workarea {
+    width: 100%;
+    height: 100%;
+    float: left;
+    display: flex;
+    flex-direction: row;
+}
+
+.options {
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height: 100%;
+    width: 25%;
+}
+
+.braclet {
+    width: 65%;
+    height: 100%;
+    float: right;
+    text-align: center;
+}
+
+#pozicija1 {
+    position: absolute;
+    top: 190px;
+    left: 500px;
+}
+
+#pozicija2 {
+    position: absolute;
+    top: 180px;
+    left: 550px;
+}
+
+#pozicija3 {
+    position: absolute;
+    top: 190px;
+    left: 600px;
+}
+
+#pozicija4 {
+    position: absolute;
+    top: 200px;
+    left: 650px;
+    transform: rotate(30deg);
+}
+
+#pozicija5 {
+    position: absolute;
+    top: 225px;
+    left: 690px;
+    transform: rotate(30deg);
+}
+
+#pozicija6 {
+    position: absolute;
+    top: 260px;
+    left: 720px;
+    transform: rotate(90deg);
+}
+
+#pozicija7 {
+    position: absolute;
+    top: 310px;
+    left: 730px;
+    transform: rotate(90deg);
+}
+
+#pozicija8 {
+    position: absolute;
+    top: 360px;
+    left: 720px;
+    transform: rotate(120deg);
+}
+
+#pozicija9 {
+    position: absolute;
+    top: 400px;
+    left: 690px;
+    transform: rotate(130deg);
+}
+
+#pozicija10 {
+    position: absolute;
+    top: 425px;
+    left: 650px;
+    transform: rotate(155deg);
+}
+
+#pozicija11 {
+    position: absolute;
+    top: 435px;
+    left: 600px;
+    transform: rotate(170deg);
+}
+
+#pozicija12 {
+    position: absolute;
+    top: 430px;
+    left: 550px;
+    transform: rotate(180deg);
+}
+
+#pozicija13 {
+    position: absolute;
+    top: 420px;
+    left: 500px;
+    transform: rotate(210deg);
+}
+
+#pozicija14 {
+    position: absolute;
+    top: 400px;
+    left: 455px;
+    transform: rotate(240deg);
+}
+
+#pozicija15 {
+    position: absolute;
+    top: 355px;
+    left: 430px;
+    transform: rotate(260deg);
+}
+
+#pozicija16 {
+    position: absolute;
+    top: 305px;
+    left: 425px;
+    transform: rotate(280deg);
+}
+
+#pozicija17 {
+    position: absolute;
+    top: 255px;
+    left: 430px;
+    transform: rotate(290deg);
+}
+
+#pozicija18 {
+    position: absolute;
+    top: 210px;
+    left: 450px;
+    transform: rotate(330deg);
+}
+
+.reiksmes {
+    padding: 2px;
+    margin: 2px;
+    background-color: #a68721;
+    color: #ffff;
+    height: 26px;
+    width: 200px;
+    position: relative;
+    font-size: 14px;
+}
+
+.fird {
+    left: 350px;
+    top: 550px;
+    float: right;
+    position: absolute;
+}
+
+.buton {
+    background-color: darkgoldenrod;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}

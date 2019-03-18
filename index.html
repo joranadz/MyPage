@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Braclet</title>
+    <link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.angularjs.org/snapshot/angular.js"></script>
+</head>
+<body>
+<div class="header">
+    <div class="meniu">
+        <div><a href="http://joranadz.site/home/shop/">
+            <button>PREKĖS</button>
+        </a></div>
+        <div class="mb"><a href="http://joranadz.site/sambala/info/">
+            <button>INFORMACIJA</button>
+        </a>
+            <a href="http://joranadz.site/sambala/" class="pt">
+                Šambala</a></div>
+        <div><a href="http://joranadz.site/apyranke/">
+            <button> APYRANKĖ</button>
+        </a></div>
+    </div>
+    <div class="lo">
+        <a href="http://joranadz.site" class="logo">joglijonija</a>
+        <pb></pb>
+        <ptt>Apyrankė jums</ptt>
+    </div>
+    <div class="icon">
+        <button class="img1" style="background-image: url(foto/inHeart2.png)"><a href="http://joranadz.site/home/my-account/"></a>
+            <pb2></pb2>
+            <pi1>Mėgstamiausi</pi1>
+        </button>
+        <button class="img1" style="background-image: url(foto/cart.png)"><a href="http://joranadz.site/home/"></a>
+            <pb2></pb2>
+            <pi1>Krepšelis</pi1>
+        </button>
+        <img src="foto/hart.png" style="height: 20px">
+        <img src="foto/cart.png" style="height: 20px">
+        <img src="foto/person.png" style="height: 20px">
+        <input class="form-control mr-sm-2" type="text">
+        <button class="btn btn-success" type="submit">Search</button>
+    </div>
+
+</div>
+<div class="bodyy">
+    <div class="text">
+        <h1>Susikurkite savo apyrankę</h1>
+        <p>Pasirinkite karoliukus iš sąrašo apačioje ir pamatysite kaip keičiais apyrakė dešinėje</p>
+    </div>
+
+
+    <div class="workarea">
+        <div class="options">
+            <select id="pirmas" class="reiksmes">
+                <option value="foto/Ka002.png"> Saulės akmuo</option>
+                <option value="foto/Ka001.png"> Raudonasis koralas</option>
+                <option value="foto/Ka003.png"> Tigro akis</option>
+                <option value="foto/Ka004.png"> Jaspis</option>
+                <option value="foto/Ka005.png"> Ametistas</option>
+                <option value="foto/Ka006.png"> Kairo naktis</option>
+                <option value="foto/Ka007.png"> Malachitas</option>
+                <option value="foto/Ka008.png"> Lazuritas</option>
+                <option value="foto/Ka009.png"> Turkis</option>
+                <option value="foto/Ka010.png"> Amazonitas</option>
+                <option value="foto/Ka011.png"> Nefritas</option>
+                <option value="foto/Ka012.png"> Lava</option>
+                <option value="foto/Ka013.png"> Kalnų krištolas</option>
+                <option value="foto/Ka014.png"> Baltas agatas</option>
+                <option value="foto/Ka015.png"> Mėnulio akmuo</option>
+                <option value="foto/Ka016.png"> Rožinis kvarcas</option>
+                <option value="foto/Ka017.png"> Rodonitas</option>
+                <option value="foto/Ka018.png"> Juodasis agatas</option>
+            </select>
+            <br>
+            <select id="antras" class="reiksmes">
+                <option value="foto/Ka002.png"> Saulės akmuo</option>
+                <option value="foto/Ka001.png"> Raudonasis koralas</option>
+                <option value="foto/Ka003.png"> Tigro akis</option>
+                <option value="foto/Ka004.png"> Jaspis</option>
+                <option value="foto/Ka005.png"> Ametistas</option>
+                <option value="foto/Ka006.png"> Kairo naktis</option>
+                <option value="foto/Ka007.png"> Malachitas</option>
+                <option value="foto/Ka008.png"> Lazuritas</option>
+                <option value="foto/Ka009.png"> Turkis</option>
+                <option value="foto/Ka010.png"> Amazonitas</option>
+                <option value="foto/Ka011.png"> Nefritas</option>
+                <option value="foto/Ka012.png"> Lava</option>
+                <option value="foto/Ka013.png"> Kalnų krištolas</option>
+                <option value="foto/Ka014.png"> Baltas agatas</option>
+                <option value="foto/Ka015.png"> Mėnulio akmuo</option>
+                <option value="foto/Ka016.png"> Rožinis kvarcas</option>
+                <option value="foto/Ka017.png"> Rodonitas</option>
+                <option value="foto/Ka018.png"> Juodasis agatas</option>
+            </select>
+            <br>
+            <select id="trecias" class="reiksmes">
+                <option value="foto/Ka002.png"> Saulės akmuo</option>
+                <option value="foto/Ka001.png"> Raudonasis koralas</option>
+                <option value="foto/Ka003.png"> Tigro akis</option>
+                <option value="foto/Ka004.png"> Jaspis</option>
+                <option value="foto/Ka005.png"> Ametistas</option>
+                <option value="foto/Ka006.png"> Kairo naktis</option>
+                <option value="foto/Ka007.png"> Malachitas</option>
+                <option value="foto/Ka008.png"> Lazuritas</option>
+                <option value="foto/Ka009.png"> Turkis</option>
+                <option value="foto/Ka010.png"> Amazonitas</option>
+                <option value="foto/Ka011.png"> Nefritas</option>
+                <option value="foto/Ka012.png"> Lava</option>
+                <option value="foto/Ka013.png"> Kalnų krištolas</option>
+                <option value="foto/Ka014.png"> Baltas agatas</option>
+                <option value="foto/Ka015.png"> Mėnulio akmuo</option>
+                <option value="foto/Ka016.png"> Rožinis kvarcas</option>
+                <option value="foto/Ka017.png"> Rodonitas</option>
+                <option value="foto/Ka018.png"> Juodasis agatas</option>
+            </select>
+            <br>
+            <select id="ketvirtas" class="reiksmes">
+                <option value="foto/Ka002.png"> Saulės akmuo</option>
+                <option value="foto/Ka001.png"> Raudonasis koralas</option>
+                <option value="foto/Ka003.png"> Tigro akis</option>
+                <option value="foto/Ka004.png"> Jaspis</option>
+                <option value="foto/Ka005.png"> Ametistas</option>
+                <option value="foto/Ka006.png"> Kairo naktis</option>
+                <option value="foto/Ka007.png"> Malachitas</option>
+                <option value="foto/Ka008.png"> Lazuritas</option>
+                <option value="foto/Ka009.png"> Turkis</option>
+                <option value="foto/Ka010.png"> Amazonitas</option>
+                <option value="foto/Ka011.png"> Nefritas</option>
+                <option value="foto/Ka012.png"> Lava</option>
+                <option value="foto/Ka013.png"> Kalnų krištolas</option>
+                <option value="foto/Ka014.png"> Baltas agatas</option>
+                <option value="foto/Ka015.png"> Mėnulio akmuo</option>
+                <option value="foto/Ka016.png"> Rožinis kvarcas</option>
+                <option value="foto/Ka017.png"> Rodonitas</option>
+                <option value="foto/Ka018.png"> Juodasis agatas</option>
+            </select>
+            <br>
+            <select id="penktas" class="reiksmes">
+                <option value="foto/Ka002.png"> Saulės akmuo</option>
+                <option value="foto/Ka001.png"> Raudonasis koralas</option>
+                <option value="foto/Ka003.png"> Tigro akis</option>
+                <option value="foto/Ka004.png"> Jaspis</option>
+                <option value="foto/Ka005.png"> Ametistas</option>
+                <option value="foto/Ka006.png"> Kairo naktis</option>
+                <option value="foto/Ka007.png"> Malachitas</option>
+                <option value="foto/Ka008.png"> Lazuritas</option>
+                <option value="foto/Ka009.png"> Turkis</option>
+                <option value="foto/Ka010.png"> Amazonitas</option>
+                <option value="foto/Ka011.png"> Nefritas</option>
+                <option value="foto/Ka012.png"> Lava</option>
+                <option value="foto/Ka013.png"> Kalnų krištolas</option>
+                <option value="foto/Ka014.png"> Baltas agatas</option>
+                <option value="foto/Ka015.png"> Mėnulio akmuo</option>
+                <option value="foto/Ka016.png"> Rožinis kvarcas</option>
+                <option value="foto/Ka017.png"> Rodonitas</option>
+                <option value="foto/Ka018.png"> Juodasis agatas</option>
+            </select>
+            <br>
+            <select id="sestas" class="reiksmes">
+                <option value="foto/Ka002.png"> Saulės akmuo</option>
+                <option value="foto/Ka001.png"> Raudonasis koralas</option>
+                <option value="foto/Ka003.png"> Tigro akis</option>
+                <option value="foto/Ka004.png"> Jaspis</option>
+                <option value="foto/Ka005.png"> Ametistas</option>
+                <option value="foto/Ka006.png"> Kairo naktis</option>
+                <option value="foto/Ka007.png"> Malachitas</option>
+                <option value="foto/Ka008.png"> Lazuritas</option>
+                <option value="foto/Ka009.png"> Turkis</option>
+                <option value="foto/Ka010.png"> Amazonitas</option>
+                <option value="foto/Ka011.png"> Nefritas</option>
+                <option value="foto/Ka012.png"> Lava</option>
+                <option value="foto/Ka013.png"> Kalnų krištolas</option>
+                <option value="foto/Ka014.png"> Baltas agatas</option>
+                <option value="foto/Ka015.png"> Mėnulio akmuo</option>
+                <option value="foto/Ka016.png"> Rožinis kvarcas</option>
+                <option value="foto/Ka017.png"> Rodonitas</option>
+                <option value="foto/Ka018.png"> Juodasis agatas</option>
+            </select>
+            <br>
+            <select id="septintas" class="reiksmes">
+                <option value="foto/Ka002.png"> Saulės akmuo</option>
+                <option value="foto/Ka001.png"> Raudonasis koralas</option>
+                <option value="foto/Ka003.png"> Tigro akis</option>
+                <option value="foto/Ka004.png"> Jaspis</option>
+                <option value="foto/Ka005.png"> Ametistas</option>
+                <option value="foto/Ka006.png"> Kairo naktis</option>
+                <option value="foto/Ka007.png"> Malachitas</option>
+                <option value="foto/Ka008.png"> Lazuritas</option>
+                <option value="foto/Ka009.png"> Turkis</option>
+                <option value="foto/Ka010.png"> Amazonitas</option>
+                <option value="foto/Ka011.png"> Nefritas</option>
+                <option value="foto/Ka012.png"> Lava</option>
+                <option value="foto/Ka013.png"> Kalnų krištolas</option>
+                <option value="foto/Ka014.png"> Baltas agatas</option>
+                <option value="foto/Ka015.png"> Mėnulio akmuo</option>
+                <option value="foto/Ka016.png"> Rožinis kvarcas</option>
+                <option value="foto/Ka017.png"> Rodonitas</option>
+                <option value="foto/Ka018.png"> Juodasis agatas</option>
+            </select>
+            <br>
+            <select id="astuntas" class="reiksmes">
+                <option value="foto/Ka002.png"> Saulės akmuo</option>
+                <option value="foto/Ka001.png"> Raudonasis koralas</option>
+                <option value="foto/Ka003.png"> Tigro akis</option>
+                <option value="foto/Ka004.png"> Jaspis</option>
+                <option value="foto/Ka005.png"> Ametistas</option>
+                <option value="foto/Ka006.png"> Kairo naktis</option>
+                <option value="foto/Ka007.png"> Malachitas</option>
+                <option value="foto/Ka008.png"> Lazuritas</option>
+                <option value="foto/Ka009.png"> Turkis</option>
+                <option value="foto/Ka010.png"> Amazonitas</option>
+                <option value="foto/Ka011.png"> Nefritas</option>
+                <option value="foto/Ka012.png"> Lava</option>
+                <option value="foto/Ka013.png"> Kalnų krištolas</option>
+                <option value="foto/Ka014.png"> Baltas agatas</option>
+                <option value="foto/Ka015.png"> Mėnulio akmuo</option>
+                <option value="foto/Ka016.png"> Rožinis kvarcas</option>
+                <option value="foto/Ka017.png"> Rodonitas</option>
+                <option value="foto/Ka018.png"> Juodasis agatas</option>
+            </select>
+            <br>
+            <select id="devintas" class="reiksmes">
+                <option value="foto/Ka002.png"> Saulės akmuo</option>
+                <option value="foto/Ka001.png"> Raudonasis koralas</option>
+                <option value="foto/Ka003.png"> Tigro akis</option>
+                <option value="foto/Ka004.png"> Jaspis</option>
+                <option value="foto/Ka005.png"> Ametistas</option>
+                <option value="foto/Ka006.png"> Kairo naktis</option>
+                <option value="foto/Ka007.png"> Malachitas</option>
+                <option value="foto/Ka008.png"> Lazuritas</option>
+                <option value="foto/Ka009.png"> Turkis</option>
+                <option value="foto/Ka010.png"> Amazonitas</option>
+                <option value="foto/Ka011.png"> Nefritas</option>
+                <option value="foto/Ka012.png"> Lava</option>
+                <option value="foto/Ka013.png"> Kalnų krištolas</option>
+                <option value="foto/Ka014.png"> Baltas agatas</option>
+                <option value="foto/Ka015.png"> Mėnulio akmuo</option>
+                <option value="foto/Ka016.png"> Rožinis kvarcas</option>
+                <option value="foto/Ka017.png"> Rodonitas</option>
+                <option value="foto/Ka018.png"> Juodasis agatas</option>
+            </select>
+            <select id="desimtas" class="reiksmes">
+                <option value="foto/Ka002.png"> Saulės akmuo</option>
+                <option value="foto/Ka001.png"> Raudonasis koralas</option>
+                <option value="foto/Ka003.png"> Tigro akis</option>
+                <option value="foto/Ka004.png"> Jaspis</option>
+                <option value="foto/Ka005.png"> Ametistas</option>
+                <option value="foto/Ka006.png"> Kairo naktis</option>
+                <option value="foto/Ka007.png"> Malachitas</option>
+                <option value="foto/Ka008.png"> Lazuritas</option>
+                <option value="foto/Ka009.png"> Turkis</option>
+                <option value="foto/Ka010.png"> Amazonitas</option>
+                <option value="foto/Ka011.png"> Nefritas</option>
+                <option value="foto/Ka012.png"> Lava</option>
+                <option value="foto/Ka013.png"> Kalnų krištolas</option>
+                <option value="foto/Ka014.png"> Baltas agatas</option>
+                <option value="foto/Ka015.png"> Mėnulio akmuo</option>
+                <option value="foto/Ka016.png"> Rožinis kvarcas</option>
+                <option value="foto/Ka017.png"> Rodonitas</option>
+                <option value="foto/Ka018.png"> Juodasis agatas</option>
+            </select>
+            <select id="vienuoliktas" class="reiksmes">
+                <option value="foto/Ka002.png"> Saulės akmuo</option>
+                <option value="foto/Ka001.png"> Raudonasis koralas</option>
+                <option value="foto/Ka003.png"> Tigro akis</option>
+                <option value="foto/Ka004.png"> Jaspis</option>
+                <option value="foto/Ka005.png"> Ametistas</option>
+                <option value="foto/Ka006.png"> Kairo naktis</option>
+                <option value="foto/Ka007.png"> Malachitas</option>
+                <option value="foto/Ka008.png"> Lazuritas</option>
+                <option value="foto/Ka009.png"> Turkis</option>
+                <option value="foto/Ka010.png"> Amazonitas</option>
+                <option value="foto/Ka011.png"> Nefritas</option>
+                <option value="foto/Ka012.png"> Lava</option>
+                <option value="foto/Ka013.png"> Kalnų krištolas</option>
+                <option value="foto/Ka014.png"> Baltas agatas</option>
+                <option value="foto/Ka015.png"> Mėnulio akmuo</option>
+                <option value="foto/Ka016.png"> Rožinis kvarcas</option>
+                <option value="foto/Ka017.png"> Rodonitas</option>
+                <option value="foto/Ka018.png"> Juodasis agatas</option>
+            </select>
+            <select id="dvyliktas" class="reiksmes">
+                <option value="foto/Ka002.png"> Saulės akmuo</option>
+                <option value="foto/Ka001.png"> Raudonasis koralas</option>
+                <option value="foto/Ka003.png"> Tigro akis</option>
+                <option value="foto/Ka004.png"> Jaspis</option>
+                <option value="foto/Ka005.png"> Ametistas</option>
+                <option value="foto/Ka006.png"> Kairo naktis</option>
+                <option value="foto/Ka007.png"> Malachitas</option>
+                <option value="foto/Ka008.png"> Lazuritas</option>
+                <option value="foto/Ka009.png"> Turkis</option>
+                <option value="foto/Ka010.png"> Amazonitas</option>
+                <option value="foto/Ka011.png"> Nefritas</option>
+                <option value="foto/Ka012.png"> Lava</option>
+                <option value="foto/Ka013.png"> Kalnų krištolas</option>
+                <option value="foto/Ka014.png"> Baltas agatas</option>
+                <option value="foto/Ka015.png"> Mėnulio akmuo</option>
+                <option value="foto/Ka016.png"> Rožinis kvarcas</option>
+                <option value="foto/Ka017.png"> Rodonitas</option>
+                <option value="foto/Ka018.png"> Juodasis agatas</option>
+            </select>
+            <select id="tryliktas" class="reiksmes">
+                <option value="foto/Ka002.png"> Saulės akmuo</option>
+                <option value="foto/Ka001.png"> Raudonasis koralas</option>
+                <option value="foto/Ka003.png"> Tigro akis</option>
+                <option value="foto/Ka004.png"> Jaspis</option>
+                <option value="foto/Ka005.png"> Ametistas</option>
+                <option value="foto/Ka006.png"> Kairo naktis</option>
+                <option value="foto/Ka007.png"> Malachitas</option>
+                <option value="foto/Ka008.png"> Lazuritas</option>
+                <option value="foto/Ka009.png"> Turkis</option>
+                <option value="foto/Ka010.png"> Amazonitas</option>
+                <option value="foto/Ka011.png"> Nefritas</option>
+                <option value="foto/Ka012.png"> Lava</option>
+                <option value="foto/Ka013.png"> Kalnų krištolas</option>
+                <option value="foto/Ka014.png"> Baltas agatas</option>
+                <option value="foto/Ka015.png"> Mėnulio akmuo</option>
+                <option value="foto/Ka016.png"> Rožinis kvarcas</option>
+                <option value="foto/Ka017.png"> Rodonitas</option>
+                <option value="foto/Ka018.png"> Juodasis agatas</option>
+            </select>
+            <select id="keturioliktas" class="reiksmes">
+                <option value="foto/Ka002.png"> Saulės akmuo</option>
+                <option value="foto/Ka001.png"> Raudonasis koralas</option>
+                <option value="foto/Ka003.png"> Tigro akis</option>
+                <option value="foto/Ka004.png"> Jaspis</option>
+                <option value="foto/Ka005.png"> Ametistas</option>
+                <option value="foto/Ka006.png"> Kairo naktis</option>
+                <option value="foto/Ka007.png"> Malachitas</option>
+                <option value="foto/Ka008.png"> Lazuritas</option>
+                <option value="foto/Ka009.png"> Turkis</option>
+                <option value="foto/Ka010.png"> Amazonitas</option>
+                <option value="foto/Ka011.png"> Nefritas</option>
+                <option value="foto/Ka012.png"> Lava</option>
+                <option value="foto/Ka013.png"> Kalnų krištolas</option>
+                <option value="foto/Ka014.png"> Baltas agatas</option>
+                <option value="foto/Ka015.png"> Mėnulio akmuo</option>
+                <option value="foto/Ka016.png"> Rožinis kvarcas</option>
+                <option value="foto/Ka017.png"> Rodonitas</option>
+                <option value="foto/Ka018.png"> Juodasis agatas</option>
+            </select>
+            <select id="penkioliktas" class="reiksmes">
+                <option value="foto/Ka002.png"> Saulės akmuo</option>
+                <option value="foto/Ka001.png"> Raudonasis koralas</option>
+                <option value="foto/Ka003.png"> Tigro akis</option>
+                <option value="foto/Ka004.png"> Jaspis</option>
+                <option value="foto/Ka005.png"> Ametistas</option>
+                <option value="foto/Ka006.png"> Kairo naktis</option>
+                <option value="foto/Ka007.png"> Malachitas</option>
+                <option value="foto/Ka008.png"> Lazuritas</option>
+                <option value="foto/Ka009.png"> Turkis</option>
+                <option value="foto/Ka010.png"> Amazonitas</option>
+                <option value="foto/Ka011.png"> Nefritas</option>
+                <option value="foto/Ka012.png"> Lava</option>
+                <option value="foto/Ka013.png"> Kalnų krištolas</option>
+                <option value="foto/Ka014.png"> Baltas agatas</option>
+                <option value="foto/Ka015.png"> Mėnulio akmuo</option>
+                <option value="foto/Ka016.png"> Rožinis kvarcas</option>
+                <option value="foto/Ka017.png"> Rodonitas</option>
+                <option value="foto/Ka018.png"> Juodasis agatas</option>
+            </select>
+            <select id="sesioliktas" class="reiksmes">
+                <option value="foto/Ka002.png"> Saulės akmuo</option>
+                <option value="foto/Ka001.png"> Raudonasis koralas</option>
+                <option value="foto/Ka003.png"> Tigro akis</option>
+                <option value="foto/Ka004.png"> Jaspis</option>
+                <option value="foto/Ka005.png"> Ametistas</option>
+                <option value="foto/Ka006.png"> Kairo naktis</option>
+                <option value="foto/Ka007.png"> Malachitas</option>
+                <option value="foto/Ka008.png"> Lazuritas</option>
+                <option value="foto/Ka009.png"> Turkis</option>
+                <option value="foto/Ka010.png"> Amazonitas</option>
+                <option value="foto/Ka011.png"> Nefritas</option>
+                <option value="foto/Ka012.png"> Lava</option>
+                <option value="foto/Ka013.png"> Kalnų krištolas</option>
+                <option value="foto/Ka014.png"> Baltas agatas</option>
+                <option value="foto/Ka015.png"> Mėnulio akmuo</option>
+                <option value="foto/Ka016.png"> Rožinis kvarcas</option>
+                <option value="foto/Ka017.png"> Rodonitas</option>
+                <option value="foto/Ka018.png"> Juodasis agatas</option>
+            </select>
+            <select id="septynioliktas" class="reiksmes">
+                <option value="foto/Ka002.png"> Saulės akmuo</option>
+                <option value="foto/Ka001.png"> Raudonasis koralas</option>
+                <option value="foto/Ka003.png"> Tigro akis</option>
+                <option value="foto/Ka004.png"> Jaspis</option>
+                <option value="foto/Ka005.png"> Ametistas</option>
+                <option value="foto/Ka006.png"> Kairo naktis</option>
+                <option value="foto/Ka007.png"> Malachitas</option>
+                <option value="foto/Ka008.png"> Lazuritas</option>
+                <option value="foto/Ka009.png"> Turkis</option>
+                <option value="foto/Ka010.png"> Amazonitas</option>
+                <option value="foto/Ka011.png"> Nefritas</option>
+                <option value="foto/Ka012.png"> Lava</option>
+                <option value="foto/Ka013.png"> Kalnų krištolas</option>
+                <option value="foto/Ka014.png"> Baltas agatas</option>
+                <option value="foto/Ka015.png"> Mėnulio akmuo</option>
+                <option value="foto/Ka016.png"> Rožinis kvarcas</option>
+                <option value="foto/Ka017.png"> Rodonitas</option>
+                <option value="foto/Ka018.png"> Juodasis agatas</option>
+            </select>
+            <select id="astuonioliktas" class="reiksmes">
+                <option value="foto/Ka002.png"> Saulės akmuo</option>
+                <option value="foto/Ka001.png"> Raudonasis koralas</option>
+                <option value="foto/Ka003.png"> Tigro akis</option>
+                <option value="foto/Ka004.png"> Jaspis</option>
+                <option value="foto/Ka005.png"> Ametistas</option>
+                <option value="foto/Ka006.png"> Kairo naktis</option>
+                <option value="foto/Ka007.png"> Malachitas</option>
+                <option value="foto/Ka008.png"> Lazuritas</option>
+                <option value="foto/Ka009.png"> Turkis</option>
+                <option value="foto/Ka010.png"> Amazonitas</option>
+                <option value="foto/Ka011.png"> Nefritas</option>
+                <option value="foto/Ka012.png"> Lava</option>
+                <option value="foto/Ka013.png"> Kalnų krištolas</option>
+                <option value="foto/Ka014.png"> Baltas agatas</option>
+                <option value="foto/Ka015.png"> Mėnulio akmuo</option>
+                <option value="foto/Ka016.png"> Rožinis kvarcas</option>
+                <option value="foto/Ka017.png"> Rodonitas</option>
+                <option value="foto/Ka018.png"> Juodasis agatas</option>
+            </select>
+            <br>
+            <p>Jeigu norite pasirinkti visus vienodus, pasirinkite iš šio sąrašo</p>
+            <select id="visi" class="reiksmes">
+                <option value="foto/Ka002.png"> Saulės akmuo</option>
+                <option value="foto/Ka001.png"> Raudonasis koralas</option>
+                <option value="foto/Ka003.png"> Tigro akis</option>
+                <option value="foto/Ka004.png"> Jaspis</option>
+                <option value="foto/Ka005.png"> Ametistas</option>
+                <option value="foto/Ka006.png"> Kairo naktis</option>
+                <option value="foto/Ka007.png"> Malachitas</option>
+                <option value="foto/Ka008.png"> Lazuritas</option>
+                <option value="foto/Ka009.png"> Turkis</option>
+                <option value="foto/Ka010.png"> Amazonitas</option>
+                <option value="foto/Ka011.png"> Nefritas</option>
+                <option value="foto/Ka012.png"> Lava</option>
+                <option value="foto/Ka013.png"> Kalnų krištolas</option>
+                <option value="foto/Ka014.png"> Baltas agatas</option>
+                <option value="foto/Ka015.png"> Mėnulio akmuo</option>
+                <option value="foto/Ka016.png"> Rožinis kvarcas</option>
+                <option value="foto/Ka017.png"> Rodonitas</option>
+                <option value="foto/Ka018.png"> Juodasis agatas</option>
+            </select>
+        </div>
+
+        <div class="braclet">
+            <h1>Jūsų apyrankė</h1>
+            <img src="foto/Ka002.png" width="60px" height="60px" id="pozicija1" class="pozicija1"/>
+            <img src="foto/Ka002.png" width="60px" height="60px" id="pozicija2" class="pozicija2"/>
+            <img src="foto/Ka002.png" width="60px" height="60px" id="pozicija3" class="pozicija3"/>
+            <img src="foto/Ka002.png" width="60px" height="60px" id="pozicija4" class="pozicija4"/>
+            <img src="foto/Ka002.png" width="60px" height="60px" id="pozicija5" class="pozicija5"/>
+            <img src="foto/Ka002.png" width="60px" height="60px" id="pozicija6" class="pozicija6"/>
+            <img src="foto/Ka002.png" width="60px" height="60px" id="pozicija7" class="pozicija7"/>
+            <img src="foto/Ka002.png" width="60px" height="60px" id="pozicija8" class="pozicija8"/>
+            <img src="foto/Ka002.png" width="60px" height="60px" id="pozicija9" class="pozicija9"/>
+            <img src="foto/Ka002.png" width="60px" height="60px" id="pozicija10" class="pozicija10"/>
+            <img src="foto/Ka002.png" width="60px" height="60px" id="pozicija11" class="pozicija11"/>
+            <img src="foto/Ka002.png" width="60px" height="60px" id="pozicija12" class="pozicija12"/>
+            <img src="foto/Ka002.png" width="60px" height="60px" id="pozicija13" class="pozicija13"/>
+            <img src="foto/Ka002.png" width="60px" height="60px" id="pozicija14" class="pozicija14"/>
+            <img src="foto/Ka002.png" width="60px" height="60px" id="pozicija15" class="pozicija15"/>
+            <img src="foto/Ka002.png" width="60px" height="60px" id="pozicija16" class="pozicija16"/>
+            <img src="foto/Ka002.png" width="60px" height="60px" id="pozicija17" class="pozicija17"/>
+            <img src="foto/Ka002.png" width="60px" height="60px" id="pozicija18" class="pozicija18"/>
+        </div>
+    </div>
+    <div class="fird">
+        <h1>Jeigu jums patinka spaskite</h1>
+        <input id="uzsakyti" class="buton" type="submit" value="UŽSAKYTI">
+        <p id="uzsakymas">Užsakymas</p>
+    </div>
+</div>
+<script src="funkcijos.js"></script>
+<script src="data.js"></script>
+
+</body>
+</html>
