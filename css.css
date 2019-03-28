@@ -4,7 +4,6 @@
     height: 60px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     background-color: white;
     padding-bottom: 0px;
     padding-top: 9px;
@@ -61,6 +60,7 @@
     color: #a68721;
     text-decoration: none;
     position: fixed;
+    margin-left: 20%;
 }
 
 .logo:hover {
@@ -72,6 +72,7 @@
 .lo:hover ptt {
     display: block;
     position: fixed;
+    margin-left: 16%;
 }
 
 ptt {
@@ -90,6 +91,7 @@ ptt {
 .lo:hover pb {
     display: block;
     margin-top: 30px;
+    margin-left: 25%;
     position: fixed;
 }
 
@@ -107,70 +109,70 @@ pb {
 
 }
 
-.icon {
-    display: flex;
-    flex-direction: row;
-}
+/*.icon {*/
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*justify-content: space-between;*/
+/*}*/
 
-.img1 {
-    background-color: black;
-    width: 30px;
-    height: 50px;
-    border-top: 10px solid white;
-    border-bottom: 10px solid white;
-    border-left: 0px;
-    border-right: 0ch;
-    position: fixed;
-}
-.img1:hover {
-    background-color: #DCAA2E;
-    position: fixed;
-}
+/*.img1 {*/
+    /*background-color: black;*/
+    /*width: 40px;*/
+    /*height: 50px;*/
+    /*border-top: 10px solid white;*/
+    /*border-bottom: 10px solid white;*/
+    /*border-left: 0px;*/
+    /*border-right: 0ch;*/
+    /*padding-left: 5px;*/
+/*}*/
+/*.img1:hover {*/
+    /*background-color: #DCAA2E;*/
+/*}*/
 
-pi1 {
-    background-color: black;
-    color: white;
-    display: none;
-    position: fixed;
-    text-align: center;
-    height: 30px;
-    width: 100px;
-    z-index: 1;
-    margin-top: 20px;
-    margin-left: -40px;
-    border-top: 4px solid black;
-}
+/*pi1 {*/
+    /*background-color: black;*/
+    /*color: white;*/
+    /*display: none;*/
+    /*position: fixed;*/
+    /*text-align: center;*/
+    /*height: 30px;*/
+    /*width: 100px;*/
+    /*z-index: 1;*/
+    /*margin-top: 20px;*/
+    /*margin-left: -40px;*/
+    /*border-top: 4px solid black;*/
+/*}*/
 
-.img1:hover pi1 {
-    display: block;
-    position: fixed;
+/*.img1:hover pi1 {*/
+    /*display: block;*/
+    /*position: fixed;*/
 
-}
-.img1:hover pb2 {
-    display: block;
-    position: fixed;
+/*}*/
+/*.img1:hover pb2 {*/
+    /*display: block;*/
+    /*position: fixed;*/
 
-}
-pb2{
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid black;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    background-color: transparent;
-    margin-left: 0px;
-    margin-top: 1px;
-    z-index: 1;
-    display: none;
-    height: 0;
-    width: 0;
-}
+/*}*/
+/*pb2{*/
+    /*border-top: 10px solid transparent;*/
+    /*border-bottom: 10px solid black;*/
+    /*border-left: 10px solid transparent;*/
+    /*border-right: 10px solid transparent;*/
+    /*background-color: transparent;*/
+    /*margin-left: 0px;*/
+    /*margin-top: 1px;*/
+    /*z-index: 1;*/
+    /*display: none;*/
+    /*height: 0;*/
+    /*width: 0;*/
+/*}*/
 .bodyy {
     width: 100%;
     height: 100%;
     padding-top: 80px;
     display: flex;
     flex-direction: column;
-    background-color: #f8f2de;
+
 }
 
 p {
@@ -342,6 +344,7 @@ h1 {
     color: #ffff;
     height: 26px;
     width: 200px;
+    border-color: #DCAA2E;
     position: relative;
     font-size: 14px;
 }
